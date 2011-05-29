@@ -1,0 +1,28 @@
+/* @group MISC */
+
+.clear-fix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+  
+.clear-fix { display: inline-table; }
+
+/* Hides from IE-mac \*/
+* html .clear-fix { height: 1%; }
+.clear-fix { display: block; }
+/* End hide from IE-mac */
+
+.clear-fix-after() {
+ 	visibility: hidden; 
+ 	display: block;
+ 	font-size: 0;
+ 	content: " ";
+ 	clear: both;
+	height: 0; 
+}
+
+/* @end */

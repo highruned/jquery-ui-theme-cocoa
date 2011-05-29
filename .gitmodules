@@ -1,0 +1,3 @@
+[submodule "jquery-ui-less-theme"]
+path = source/vendor/base
+url = git@github.com:ericmuyser/jquery-ui-less-theme.git

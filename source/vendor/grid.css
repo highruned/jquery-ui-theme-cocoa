@@ -1,0 +1,8 @@
+.row {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.row .row {
+  width: auto;
+  display: inline-block;
+}

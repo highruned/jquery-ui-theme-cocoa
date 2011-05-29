@@ -1,0 +1,25 @@
+@column-count: 12;
+@column-width: 960 / @column-count;
+@gutter-buffer: 10px;
+
+.column(@index, @margin: @gutter-buffer, @float: left) {
+	width: (@column-width * @index) - (@gutter-buffer * 2);
+	margin: 0 @margin;
+	float: @float;
+}
+
+.gutter(@index, @float: left) {
+	width: (@column-width * @index);
+	float: @float;
+}
+
+
+.row {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.row .row {
+	width: auto;
+	display: inline-block;
+}
