@@ -5,11 +5,11 @@ Cocoa-style theme for jQuery UI.
 ## Getting started
 
 * Clone the repo: `git clone git@github.com:ericmuyser/jquery-ui-theme-cocoa.git`
-* Include the files from `build` in a theme directory as you normally would.
+* Include the files from `build` in a theme directory as you normally would, and use `theme.css` on your page.
 
 ## TODO
 
-* Convert original edits to use LESS version jQuery UI base theme.
+* Clean up original conversion of CSS to LESS more.
 
 # Credit
 
