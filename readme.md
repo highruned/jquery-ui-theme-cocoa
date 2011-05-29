@@ -15,4 +15,4 @@ Cocoa-style theme for jQuery UI. A picture is worth a thousand words:
 
 # Credit
 
-Thanks to Tait Brown for the [Aristo theme[(https://github.com/taitems/Aristo-jQuery-UI-Theme), used as a basis.
+Thanks to Tait Brown for the [Aristo theme](https://github.com/taitems/Aristo-jQuery-UI-Theme), used as a basis.
