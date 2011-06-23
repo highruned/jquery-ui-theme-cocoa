@@ -1,3 +1,6 @@
 [submodule "source/vendor/base"]
 	path = source/vendor/base
 	url = git@github.com:ericmuyser/jquery-ui-less-theme.git
+[submodule "source/vendor/moar"]
+	path = source/vendor/moar
+	url = git@github.com:ericmuyser/moar.git

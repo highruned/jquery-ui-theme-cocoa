@@ -19,7 +19,8 @@ Cocoa-style theme for jQuery UI. A picture is worth a thousand words:
 
 ## TODO
 
-* Clean up original conversion of CSS to LESS more.
+* Add more styles.  
+* Add styles for common (non-official) plugins.
 
 # Credit
 
