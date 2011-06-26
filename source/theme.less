@@ -24,7 +24,7 @@
 .ui-widget-header {
 	border: 1px solid #4A4A4A;
 	color: #4f4f4f;
-	.vertical-gradient(#c4c4c4, #ededed);
+	.vertical-gradient(#ededed, #c4c4c4);
 	
 	a {
 		color: #4f4f4f;
@@ -34,7 +34,7 @@
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
 	border: 1px solid #4a4a4a;
 	color: #373737;
-	.vertical-gradient(#c4c4c4, #ededed);
+	.vertical-gradient(#ededed, #c4c4c4);
 	.inner-shadow(rgba(255, 255, 255, 0.6), 0px, 1px, 0px);
 }
 
@@ -63,7 +63,7 @@
 	.hide-outline;
 	color: #1c4257;
 	border: 1px solid #7096ab;
-	.vertical-gradient(#92bdd6, #b9e0f5);
+	.vertical-gradient(#b9e0f5, #92bdd6);
 	.hide-shadow;
 }
 
@@ -73,11 +73,22 @@
 	}
 }
 
+.ui-state-success, .ui-widget-content .ui-state-success, .ui-widget-header .ui-state-success {
+	border: 2px solid #7ADD83;
+	background: #C2F4D6;
+	color: #1D1F21;
+	.outer-shadow(#D6DBDD, 0, 1px, 5px);
+	
+	.ui-icon {
+		background-image: url(images/ui-icons_454545_256x240.png);
+		margin-top: -1px;
+	}
+}
+
 .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
 	border: 1px solid #d2dbf4;
 	background: #f4f8fd;
 	color: #0d2054;
-	.hide-border-radius;
 	
 	.ui-icon {
 		background-image: url(images/ui-icons_454545_256x240.png);
@@ -89,7 +100,6 @@
 	border: 1px solid #e2d0d0;
 	background: #fcf0f0;
 	color: #280b0b;
-	.hide-border-radius;
 	
 	.ui-icon {
 		background: url(images/icon_sprite.png) -16px 0 no-repeat !important;
@@ -203,7 +213,7 @@
 }
 
 .ui-button.ui-state-hover {
-	.vertical-gradient(#747474, #606060);
+	.vertical-gradient(#606060, #747474);
 	.inner-shadow(#242424, 1px, 3px, 4px);
 	color: #fefefe;
 	
@@ -215,7 +225,7 @@
 .ui-button.ui-state-focus {
 	color: #1c4257;
 	border-color: #7096ab;
-	.vertical-gradient(#b9e0f5, #92bdd6);
+	.vertical-gradient(#92bdd6, #b9e0f5);
 	.hide-shadow;
 	.hide-outline;
 }
@@ -254,7 +264,7 @@
 	
 		&.ui-state-active {
 			border-color: #111929;
-			.vertical-gradient(#747474, #606060);
+			.vertical-gradient(#606060, #747474);
 			.inner-shadow(#242424, 1px, 3px, 4px);
 			color: #fefefe;
 			
@@ -473,11 +483,11 @@ input[type="submit"], input[type="button"] {
 	.hand;
 	.hide-outline;
 	.transition(0.25s, ease-in-out);
-	padding: 1px 5px;
+	padding: 3px 5px;
 	.bold;
 	border: 1px solid #4a4a4a;
 	color: #373737;
-	.vertical-gradient(#c4c4c4, #ededed);
+	.vertical-gradient(#ededed, #c4c4c4);
 	.inner-shadow(rgba(255, 255, 255, 0.6), 0px, 1px, 0px);
 	.transition(0.2s, ease-in-out);
 	.disable-selection;
@@ -487,7 +497,7 @@ input[type="submit"], input[type="button"] {
 	text-shadow: 0 1px 0 rgba(255,255,255,0.6);
 	
 	&:hover, &:focus {
-		.vertical-gradient(#747474, #606060);
+		.vertical-gradient(#606060, #747474);
 		.inner-shadow(#242424, 1px, 3px, 4px);
 		color: #fefefe;
 		text-shadow: 1px 1px 0 #464646;

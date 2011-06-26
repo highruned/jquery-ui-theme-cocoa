@@ -38,7 +38,8 @@ var baker = function(input_path, output_path) {
 		compile();
 		
 		fs.watchFile(file_path, function(curr, prev) {
-			compile();
+			if(curr.mtime > prev.mtime)
+				compile();
 		});
 	});
 };
