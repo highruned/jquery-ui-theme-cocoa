@@ -1,8 +1,12 @@
 # jQuery UI theme: "Cocoa"
 
-Cocoa-style theme for jQuery UI. A picture is worth a thousand words:
+Cocoa-style theme for jQuery UI. A picture is worth a thousand words ([and so is the demo](http://ericmuyser.github.com/jquery-ui-theme-cocoa/demo)):
 
 ![cocoa](http://dl.dropbox.com/u/18343209/baker.jpg)
+
+## Links
+
+* [Demo](http://ericmuyser.github.com/jquery-ui-theme-cocoa/demo)
 
 ## Getting started
 
